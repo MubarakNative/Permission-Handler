@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/requestPhoto"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        />
+
+    <Button
+        android:id="@+id/requestPhoto"
+        android:layout_width="wrap_content"
+        android:text="Take Picture"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btnOpenNewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Next Activity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/go_to_next"
+        android:src="@android:drawable/ic_menu_add" />
+
+</RelativeLayout>
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Permission Handler</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="permission_rationale">To take picture from your camera you need to allow the camera permission!</string>
+    <string name="go_to_next">Go to next</string>
+    <string name="permission_required_title">Permission required!</string>
+    <string name="allow">Allow</string>
+    <string name="permission_granted_msg">Permission granted successfully</string>
+    <string name="settings">Settings</string>
+
+<!--  TODO replace this permission_denied_msg  with your actual message when user denied the permission -->
+    <string name="permission_denied_msg">Permission is denied without all permissions this app won\'t function properly</string>
+
+    <string name="permission_denied_title">Permission Denied!</string>
+    <string name="education_msg">This camera permission is required to take picture from your mobile camera!</string>
+    <string name="close">Close</string>
+    <string name="permanent_permission_deniel_msg"><![CDATA[To take picture from your camera you need to allow the camera permission. Tap Setting > Permission, and turn on Camera Permission.]]></string>
+    <string name="not_now">Not now</string>
+    <string name="permanent_permission_denied_title">Permanently denied permission!</string>
+</resources>
